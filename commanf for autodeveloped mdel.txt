@@ -1,0 +1,1 @@
+python preprocessing/preprocess_utk.py --data_dir 'F:\python progrMING\Fast-AgingGAN\IMAGES MODEL' --output_dir 'F:\python progrMING\Fast-AgingGAN\OUTPUTIMAGES'
