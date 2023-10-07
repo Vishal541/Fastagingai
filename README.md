@@ -8,12 +8,6 @@ Top row is input image, bottom row is aged output from the GAN.
 # Timing
 The model executes at 66fps on a GTX1080 with an image size of 512x512. Because of the way it is trained, a face detection pipeline is not needed. As long as the image of spatial dims 512x512 contains a face of size 256x256, this will work fine.
 
-# Demo
-To try out the pretrained model on your images, use the following command:
-```bash
-python infer.py --image_dir 'path/to/your/image/directory'
-```
-
 # Training
 To train your own model on CACD or UTK faces datasets, you can use the provided preprocessing scripts in the preprocessing directory to prepare the dataset.
 If you are going to use CACD, use the following command:
